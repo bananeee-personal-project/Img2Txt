@@ -1,0 +1,19 @@
+PyPDF2 is a free and open source pure-python PDF library capable of splitting, merging, cropping,
+and transforming the pages of PDF files. It can also add custom data, viewing options, and
+passwords to PDF files. PyPDF2 can retrieve text and metadata from PDFs as well.
+In this updated example, we first check the type of the image
+variable using the isinstance( ) Function. IF itis a tk. Image
+object, we can open it directly using the Image. open() method.
+Otherwise, we assume that it is a NumPy array and convert it to a PIL
+Image object using the Image. fromarray() method.
+from PIL import ImageGrab, Image
+
+m1 = ImageGrab.grabclipboard()
+Image. save(m1)
+ 
+
+Chu Na Ts Ch YE nS ate NE
+He ous Cue PHI QUAN TINH
+Tiéng Viét, cing goi la tieng Viet Nam hay Viét ngit la ngén ngi? cla ngudi Viét va la ngén ngir
+chinh thire tai Viét Nam. Day la tiéng me dé cila khoang 85% dan ..
+
